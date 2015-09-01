@@ -1,6 +1,6 @@
 def number():
     try:
-        user_num = int(input("Please enter a positive number."))
+        user_num = float(input("Please enter a positive number."))
         if user_num < 0:
             print("That's not a positive number!")
             number()
