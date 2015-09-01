@@ -1,4 +1,6 @@
 def number():
+    """Takes user input and checks to make sure it is a positive number.
+    takes no arguements"""
     try:
         user_num = float(input("Please enter a positive number."))
         if user_num < 0:
