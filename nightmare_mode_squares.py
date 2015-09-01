@@ -9,7 +9,7 @@ def number():
             return (user_num, 1) #the 1 here is to prevent an error when we unpack below it looks funny but it's still correct
     except:
         print('that\'s not a number at all!')
-        number()
+        return number()
 user_num = number()
 y = 1
 x, z = user_num
