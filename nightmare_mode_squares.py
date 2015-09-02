@@ -18,4 +18,7 @@ while round(y, 3) != round((y+(x/y))/2, 3):
     counter += 1
     y = (y+(x/y))/2
     print("this is attempt number " + str(counter) + " and the current guess is " + str(y))
-print("the square root is " + str(y) + "*" + str(z) + " and it took me " + str(counter) + " attempts!")
+if z == "i":
+    print("the square root is " + str(y) + "*" + str(z) + " and it took me " + str(counter) + " attempts!")
+else:
+    print("the square root is " + str(y) + " and it took me " + str(counter) + " attempts!")
